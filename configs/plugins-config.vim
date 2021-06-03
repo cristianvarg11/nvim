@@ -12,7 +12,17 @@ let g:lightline = {
 
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 let NERDTreeShowHidden=1 "To show the hidden files on nerdtree
- 
+
+"<<<< For highlight
+let g:mta_use_matchparen_group = 1
+let g:mta_filetypes = {
+    \ 'html' : 1,
+    \ 'xhtml' : 1,
+    \ 'xml' : 1,
+    \ 'jinja' : 1,
+    \ 'javascript': 1,
+    \}
+
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<< If Plug is not installed >>>>>>>>>>>>>>>>>>>>>>"
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -67,11 +77,45 @@ let g:NERDTrimTrailingWhitespace = 1
 
 " Enable NERDCommenterToggle to check all selected lines is commented or not 
 let g:NERDToggleCheckAllLines = 1
-"<<<<<<<<<<<<<<<<<<<<<< Rainbow parentheses improved >>>>>>>>>>>>>>>>>>>>>>>>>"
-let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
-"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
+"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ALE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+function! LinterStatus() abort
+    let l:counts = ale#statusline#Count(bufnr(''))
+
+    let l:all_errors = l:counts.error + l:counts.style_error
+    let l:all_non_errors = l:counts.total - l:all_errors
+
+    return l:counts.total == 0 ? 'OK' : printf(
+    \   '%dW %dE',
+    \   all_non_errors,
+    \   all_errors
+    \)
+endfunction
+
+ let g:ale_fix_on_save = 1
+"
+let g:ale_sign_error = '●'
+let g:ale_sign_warning = '.'
+
+let g:ale_linters = {
+      \'python': ['flake8', 'pylint'],
+      \'javascript': ['eslint'],
+      \'typescript': ['eslint', 'tsserver', 'prettier'],
+      \}
+let g:ale_fixers = {
+      \'javascript': ['prettier'],
+      \'json': ['prettier'],
+      \'typescript': ['prettier'],
+      \'python': ['black','yapf'],
+      \'html': ['prettier'],
+      \}
+
+set statusline=%{LinterStatus()}
+
+"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<< CoC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+"<<<< Auto install missing extensions
+let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-css', 'coc-pyright', 'coc-angular']
 
 " TextEdit might fail if hidden is not set.
 set hidden

@@ -15,5 +15,6 @@ nmap ,w :w<CR>
 nmap ,q :wq<CR>
 nmap ,re :Rename 
 
+" To wrap current tag inside another tag, use, for example: yss<div>
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 

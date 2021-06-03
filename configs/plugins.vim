@@ -15,6 +15,7 @@ Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Yggdroot/indentLine'
 Plug 'KabbAmine/vCoolor.vim'
+Plug 'https://github.com/tpope/vim-eunuch'
 " To rename files, remove or any, use this pulgin: https://github.com/tpope/vim-eunuch
 
 "--- Intelligence
@@ -24,19 +25,27 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'https://github.com/adelarsq/vim-matchit'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'preservim/nerdcommenter'
+Plug 'dense-analysis/ale'
+Plug 'https://github.com/tpope/vim-surround'
 
 "--- Indicator bar
 Plug 'itchyny/lightline.vim'
+Plug 'https://github.com/tpope/vim-fugitive'
 " To show the current branch,  use this plugin: https://github.com/tpope/vim-fugitive
 
 "--- Highlight
 Plug 'leafgarland/typescript-vim' 
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'yuezk/vim-js'
 Plug 'vim-python/python-syntax'
-Plug 'luochen1990/rainbow'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'sheerun/vim-polyglot'
+Plug 'valloric/matchtagalways'
+
+"--- React
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'yuezk/vim-js'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'mlaursen/vim-react-snippets'
+Plug 'SirVer/ultisnips'
 
 "--- Formatting
 Plug 'prettier/vim-prettier', {
