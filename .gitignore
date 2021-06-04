@@ -1,2 +1,2 @@
-./plugged
-./gitignore
+plugged/
+.gitignore
