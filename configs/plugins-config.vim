@@ -13,6 +13,9 @@ let g:lightline = {
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 let NERDTreeShowHidden=1 "To show the hidden files on nerdtree
 
+"<<<< For snippets
+let g:UltiSnipsSnippetDirectories=[ 'my-snippets']
+
 "<<<< For highlight
 let g:mta_use_matchparen_group = 1
 let g:mta_filetypes = {

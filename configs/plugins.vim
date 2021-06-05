@@ -27,6 +27,9 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'preservim/nerdcommenter'
 Plug 'dense-analysis/ale'
 Plug 'https://github.com/tpope/vim-surround'
+"--- Snippets
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 "--- Indicator bar
 Plug 'itchyny/lightline.vim'

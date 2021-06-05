@@ -29,7 +29,7 @@ so ~/.config/nvim//configs/plugins-config.vim
 set background=dark
 set termguicolors
 
-"-- for tokio thme
+"-- for tokio theme
 let g:tokyonight_style = 'storm'
 let g:tokyonight_enable_italic = 1
 let g:tokyonight_transparent_background = 1
