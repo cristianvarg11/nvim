@@ -17,4 +17,4 @@ let g:gruvbox_material_transparent_background=1
 "-- everforest theme
 let g:everforest_background = 'soft'
 let g:everforest_enable_italic = 1
-let g:everforest_transparent_background = 1
+let g:everforest_transparent_background = 0
