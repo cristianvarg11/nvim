@@ -26,8 +26,8 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['c'] = ''
 "<<<<<<<<<<<<<<<<<<<<<< Specific terminations file names
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols = {} " needed
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*module.*\.ts$'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*routes.*\.ts$'] = '醙'
 let g:WebDevIconsUnicodeDecorateFileNodesPatternSymbols['.*component.*\.spec.*\.ts$'] = ''
-
 
 "<<<<<<<<<<<<<<<<<<<<<< Specific file names
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {} " needed
@@ -35,6 +35,5 @@ let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitignore'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['package.json'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['package-lock.json'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['karma.conf.js'] = ''
-let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['module.ts'] = ''
 
 "<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"

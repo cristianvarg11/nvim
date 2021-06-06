@@ -5,8 +5,14 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
 Plug 'ghifarit53/tokyonight-vim'
+Plug 'sainnhe/everforest'
 
 "-------------- IDE
+Plug 'glepnir/dashboard-nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 "--- Navigation
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
@@ -16,7 +22,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'Yggdroot/indentLine'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'https://github.com/tpope/vim-eunuch'
-" To rename files, remove or any, use this pulgin: https://github.com/tpope/vim-eunuch
 
 "--- Intelligence
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
@@ -34,7 +39,6 @@ Plug 'honza/vim-snippets'
 "--- Indicator bar
 Plug 'itchyny/lightline.vim'
 Plug 'https://github.com/tpope/vim-fugitive'
-" To show the current branch,  use this plugin: https://github.com/tpope/vim-fugitive
 
 "--- Highlight
 Plug 'leafgarland/typescript-vim' 

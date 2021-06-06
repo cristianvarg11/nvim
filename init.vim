@@ -1,5 +1,4 @@
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< General >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-
 set number
 set numberwidth=1
 set mouse=a
@@ -27,20 +26,7 @@ so ~/.config/nvim//configs/plugins-config.vim
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Color scheme >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 set background=dark
-set termguicolors
-
-"-- for tokio theme
-let g:tokyonight_style = 'storm'
-let g:tokyonight_enable_italic = 1
-let g:tokyonight_transparent_background = 1
-
-"-- for gruvbox-material
-let g:gruvbox_material_palette = 'ocean-community'
-let g:gruvbox_material_background = 'hard'
-let g:gruvbox_material_transparent_background=1
-
-"-- set theme
-colorscheme tokyonight
+colorscheme everforest 
 
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
