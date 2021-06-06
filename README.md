@@ -15,3 +15,8 @@
    > *__cd /usr/bin && sudo ln -s nvim nv__* ("rename" nvim as nv)
 ### Examples imgaes
 ![Dashboard](./eg-images/01.png)
+![Example2](./eg-images/02.png)
+![Example3](./eg-images/03.png)
+![Example4](./eg-images/04.png)
+![Example5](./eg-images/05.png)
+![Example6](./eg-images/06.png)
