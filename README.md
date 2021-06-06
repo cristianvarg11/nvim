@@ -9,9 +9,10 @@
    > yay -S nerd-fonts-fira-code otf-powerline-symbols-git ttf-all-the-icons ttf-devicons ttf-material-design-icons ttf-weather-icons
 ### Get started
 1. Clone this repository on the *__~/.config/__* path.
-1. Open neovim with the *__nvim__* command, in case of exist errors, is normal so, press enter untill they disappear. Then, type:
+   > cd ~/.config/ && git clone https://github.com/cristianvarg11/nvim.git
+3. Open neovim with the *__nvim__* command, in case of exist errors, is normal so, press enter untill they disappear. Then, type:
    >  :PlugInstall (This take a few minutes, depends on your internet connection speed).
-1. (Optional) To rename *__nvim__* command with another name, create a symlink, type on the termnial: 
+4. (Optional) To rename *__nvim__* command with another name, create a symlink, type on the termnial: 
    > *__cd /usr/bin && sudo ln -s nvim nv__* ("rename" nvim as nv)
 ### Examples imgaes
 ![Dashboard](./eg-images/01.png)
