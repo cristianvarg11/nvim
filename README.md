@@ -16,7 +16,7 @@
    >  :PlugInstall (This take a few minutes, depends on your internet connection speed).
 3. (Optional) To rename *__nvim__* command with another name, create a symlink, type on the termnial: 
    > *__cd /usr/bin && sudo ln -s nvim nv__* ("rename" nvim as nv)
-### Examples imgaes
+### Reference imgaes
 ![Dashboard](./eg-images/01.png)
 ![Example2](./eg-images/02.png)
 ![Example3](./eg-images/03.png)
