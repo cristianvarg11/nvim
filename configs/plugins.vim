@@ -13,6 +13,7 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
+Plug 'Pocco81/TrueZen.nvim'
 "--- Navigation
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'

@@ -6,6 +6,7 @@ let NERDTreeQuitOnOpen=1
 nmap <Leader>m <Plug>(easymotion-s2)
 nmap <Leader>nt :NERDTreeFind<CR>
 nmap <Leader>fo :Prettier<CR>
+nmap <Leader>tzm :TZMinimalist<CR>
 imap ,e <ESC>
 vnoremap ,e <ESC>
 nmap qq :q<CR>
@@ -17,9 +18,6 @@ nmap ,re :Rename
 " To wrap current tag inside another tag, use, for example: yss<div>
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 "<<<<<<<<<<<<<<<<<< Dashboard
-nmap <Leader>ss :<C-u>SessionSave<CR>
-nmap <Leader>sl :<C-u>SessionLoad<CR>
-
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
 nnoremap <silent> <Leader>fh :DashboardFindHistory<CR>
