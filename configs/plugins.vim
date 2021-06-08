@@ -8,21 +8,22 @@ Plug 'ghifarit53/tokyonight-vim'
 Plug 'sainnhe/everforest'
 
 "-------------- IDE
+"---- Stetic
 Plug 'glepnir/dashboard-nvim'
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+Plug 'junegunn/goyo.vim'
+Plug 'vwxyutarooo/nerdtree-devicons-syntax'
+Plug 'ryanoasis/vim-devicons'
+Plug 'Yggdroot/indentLine'
 
-Plug 'Pocco81/TrueZen.nvim'
 "--- Navigation
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'vwxyutarooo/nerdtree-devicons-syntax'
-Plug 'ryanoasis/vim-devicons'
-Plug 'Yggdroot/indentLine'
 Plug 'KabbAmine/vCoolor.vim'
 Plug 'https://github.com/tpope/vim-eunuch'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 "--- Intelligence
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
@@ -33,6 +34,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'preservim/nerdcommenter'
 Plug 'dense-analysis/ale'
 Plug 'https://github.com/tpope/vim-surround'
+
 "--- Snippets
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'

@@ -19,4 +19,3 @@ so ~/.config/nvim/configs/appearance/navmenu-config.vim
 so ~/.config/nvim/configs/appearance/lightline-config.vim
 so ~/.config/nvim/configs/appearance/themes-config.vim
 so ~/.config/nvim/configs/appearance/dashboard-config.vim
-
