@@ -1,6 +1,6 @@
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<< CoC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 "<<<< Auto install missing extensions
-let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-css', 'coc-pyright', 'coc-angular']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-html', 'coc-css', 'coc-pyright', 'coc-angular', 'coc-clangd']
 
 " TextEdit might fail if hidden is not set.
 set hidden
