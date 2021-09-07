@@ -9,6 +9,8 @@
    > yay -S nerd-fonts-fira-code otf-powerline-symbols-git ttf-all-the-icons ttf-devicons ttf-material-design-icons ttf-weather-icons
 4. We need pynvim library for python
    > pip3 install pynvim
+5. Install prettier
+   > npm i -g prettier
 ### Get started
 1. Clone this repository on the *__~/.config/__* path.
    > cd ~/.config/ && git clone https://github.com/cristianvarg11/nvim.git
