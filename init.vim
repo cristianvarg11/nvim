@@ -26,7 +26,7 @@ so ~/.config/nvim//configs/plugins-config.vim
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Color scheme >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 set background=dark
-colorscheme tokyonight
+colorscheme gruvbox-material 
 
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
