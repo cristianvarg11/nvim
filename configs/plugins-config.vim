@@ -8,7 +8,6 @@ endif
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 "-------- Intelligence
-so ~/.config/nvim/configs/intelligence/telescope-config.vim
 so ~/.config/nvim/configs/intelligence/coc-config.vim
 so ~/.config/nvim/configs/intelligence/ale-config.vim
 so ~/.config/nvim/configs/intelligence/prettier-config.vim

@@ -52,6 +52,8 @@ Plug 'valloric/matchtagalways'
 
 "--- React
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'jparise/vim-graphql'
 Plug 'yuezk/vim-js'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'mlaursen/vim-react-snippets'
