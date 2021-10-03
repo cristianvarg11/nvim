@@ -13,8 +13,8 @@ Plug 'glepnir/dashboard-nvim'
 Plug 'junegunn/goyo.vim'
 Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 Plug 'ryanoasis/vim-devicons'
-" Plug 'Yggdroot/indentLine'
-Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'Yggdroot/indentLine'
+" Plug 'lukas-reineke/indent-blankline.nvim'
 
 "--- Navigation
 Plug 'easymotion/vim-easymotion'

@@ -10,6 +10,10 @@ let g:mta_filetypes = {
     \ 'jinja' : 1,
     \ 'javascript': 1,
     \ 'typescript': 1,
+    \ 'typescriptreact': 1,
+    \ 'javascriptreact': 1,
+    \ 'javascript.jsx': 1,
+    \ 'javascript.tsx': 1,
     \}
 
 "<<<<<<<<<<<<<<<<<<<<<< Commenter >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
