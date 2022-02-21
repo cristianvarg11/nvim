@@ -19,3 +19,4 @@ so ~/.config/nvim/configs/appearance/lightline-config.vim
 so ~/.config/nvim/configs/appearance/themes-config.vim
 so ~/.config/nvim/configs/appearance/dashboard-config.vim
 so ~/.config/nvim/configs/appearance/indent-line-config.vim
+so ~/.config/nvim/configs/appearance/tabsBar-config.vim
