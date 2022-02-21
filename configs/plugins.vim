@@ -6,6 +6,7 @@ Plug 'morhetz/gruvbox'
 Plug 'sainnhe/gruvbox-material'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'sainnhe/everforest'
+Plug 'artanikin/vim-synthwave84'
 
 "-------------- IDE
 "---- Stetic
