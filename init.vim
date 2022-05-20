@@ -26,7 +26,8 @@ so ~/.config/nvim//configs/plugins-config.vim
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Color scheme >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
 set background=dark
-colorscheme everforest
+" colorscheme everforest
+colorscheme gruvbox-material
 " colorscheme synthwave84
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
