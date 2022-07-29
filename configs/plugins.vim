@@ -15,7 +15,6 @@ Plug 'junegunn/goyo.vim'
 Plug 'vwxyutarooo/nerdtree-devicons-syntax'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Yggdroot/indentLine'
-" Plug 'lukas-reineke/indent-blankline.nvim'
 
 "--- Navigation
 Plug 'easymotion/vim-easymotion'
@@ -37,6 +36,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'preservim/nerdcommenter'
 Plug 'dense-analysis/ale'
 Plug 'https://github.com/tpope/vim-surround'
+Plug 'safv12/andromeda.vim'
 
 "--- Snippets
 Plug 'SirVer/ultisnips'
