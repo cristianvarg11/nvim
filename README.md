@@ -1,11 +1,11 @@
 # nvim 
-## This is my configuration for neovim (I use neovim-nightly-bin) :shipit:
+## This is my configuration for neovim :shipit:
 ### Dependencies
-1. Install [neovim](https://aur.archlinux.org/packages/neovim-nightly-bin/) package, in this case, I use Manjaro (based on ArchLinux).
+1. Install [neovim](https://archlinux.org/packages/community/x86_64/neovim/) package, in this case, I use ArchLinux.
    > sudo pacman -S neovim
 2. It is necessary to have installed *__yarn__* in the system, because several plugins use it, for example, Prettier.
    > npm i -g yarn
-3. In order to see the icons in the navigation tree, we need some sources, some DE already have them (like KDE), in my case I use XFCE and it is necessary to install the following:
+3. In order to see the icons in the navigation tree, we need some sources, some DE or distros already have them, in my case I use I3 and it is necessary to install the following:
    > yay -S nerd-fonts-fira-code otf-powerline-symbols-git ttf-all-the-icons ttf-devicons ttf-material-design-icons ttf-weather-icons
 4. We need pynvim library for python
    > pip3 install pynvim
