@@ -27,7 +27,7 @@ let g:lightline = {
     \   'linter_errors': 'error',
     \   'linter_ok': 'right',
     \ },
-    \ 'separator': { 'left': '', 'right': '' },
+    \ 'separator': { 'left': '', 'right': '' },
     \ 'subseparator': { 'left': '', 'right': '' }
     \ }
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"

@@ -7,6 +7,10 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'sainnhe/everforest'
 Plug 'artanikin/vim-synthwave84'
+Plug 'thedenisnikulin/vim-cyberpunk'
+Plug 'nikolvs/vim-sunbather'
+Plug 'sts10/vim-pink-moon'
+Plug 'https://github.com/TroyFletcher/vim-colors-synthwave'
 
 "-------------- IDE
 "---- Stetic

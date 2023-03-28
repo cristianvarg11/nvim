@@ -24,11 +24,17 @@ so ~/.config/nvim//configs/plugins.vim
 so ~/.config/nvim//configs/plugins-config.vim
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Color scheme >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+let g:neovide_floating_blur_amount_x = 2.0
+let g:neovide_floating_blur_amount_y = 2.0
 
 set background=dark
-" colorscheme everforest
-colorscheme tokyonight
+colorscheme everforest
+" colorscheme cyberpunk
+" colorscheme tokyonight
 " colorscheme gruvbox-material
+" colorscheme sunbather
+" colorscheme pink-moon
+" colorscheme synthwave
 " colorscheme synthwave84
 "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 
